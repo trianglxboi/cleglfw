@@ -5,7 +5,7 @@ project "GLFW"
 	kind "StaticLib"
 
 	targetdir "%{OutputDir.Binaries}/%{prj.name}"
-	objdir    "%{OutputDir.Objects}/%{prj.name}"
+	objdir    "%{OutputDir.Intermediates}/%{prj.name}"
 
 	files
 	{
